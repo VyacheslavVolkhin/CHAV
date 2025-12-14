@@ -1,0 +1,24 @@
+div[id*="bx_incl_area"] {
+    display: inherit;
+}
+
+.popup-window {
+    border-radius: 4px;
+}
+
+.popup-window img {
+    border-radius: 2px;
+}
+
+.sale-order-list-title {
+    margin: 1em 0 !important;
+}
+
+.table {
+    border-collapse: collapse;
+}
+
+.table td {
+    padding: 5px 10px;
+    border: 1px solid #D7D7D7;
+}

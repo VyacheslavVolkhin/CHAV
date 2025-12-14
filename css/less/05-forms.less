@@ -1,0 +1,77 @@
+/* ----------------------------------- *\
+			forms elements styles
+\* ----------------------------------- */
+.frm-main-search {
+	display: block;
+	position: relative;
+	line-height: 1;
+	.form-input {
+		height: 44px;
+		border: 1px solid #CB9975;
+		border-radius: 15px;
+		background: none;
+		padding: 0 40px 0 14px;
+		font-size: 14px;
+		line-height: 1.3;
+		font-weight: 400;
+		color: var(--clr-base);
+	}
+	[placeholder]::-webkit-input-placeholder {color: var(--clr-title);}
+	[placeholder]:-moz-placeholder {color: var(--clr-title);}
+	[placeholder]::-moz-placeholder {color: var(--clr-title);}
+	[placeholder]:-ms-input-placeholder {color: var(--clr-title);}
+	.button-form {
+		width: 32px;height: 32px;
+		position: absolute;
+		top: 50%;right: 27px;
+		margin: -16px -16px 0 0;
+		z-index: 2;
+	}
+}
+.button-content {
+	height: 51px;
+	padding: 0 29px;
+	font-size: 16px;
+	font-weight: 600;
+	letter-spacing: 1px;
+	border-radius: 40px;
+}
+.btn-action-ico {
+	&.ico-search-main {
+		&:before {
+			background-image: url(../img/icons/search-main.svg);
+		}
+	}
+	&.ico-arrow-main {
+		&:before {
+			background-image: url(../img/icons/arrow-toggle.svg);
+			background-size: 24px auto;
+		}
+		&.ico-arrow-next {
+			&:before {
+				transform: rotate(-90deg);
+			}
+		}
+		&.ico-arrow-prev {
+			&:before {
+				transform: rotate(90deg);
+			}
+		}
+		&.ico-arrow-up {
+			&:before {
+				transform: rotate(180deg);
+			}
+		}
+	}
+	&.ico-copy {
+		&:before {
+			background-image: url(../img/icons/copy.svg);
+		}
+	}
+}
+@media (min-width: 1024px) {
+	.button-content {
+		height: 8rem;
+		padding: 0 5.9rem;
+	}
+}

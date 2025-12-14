@@ -1,0 +1,56 @@
+.hide {
+    display: none;
+}
+
+#newPartnerForm .frm-section-title {
+    text-align: center;
+}
+
+#newPartnerForm.form-box:last-child {
+    margin-bottom: auto;
+}
+
+#newPartnerForm.form-box .frm-section {
+    margin-bottom: auto;
+}
+
+#newPartnerForm.form-box .frm-section .frm-row {
+    margin-bottom: 10px;
+}
+
+#newPartnerForm .frm-field > label {
+    display: inline-block;
+    padding: 0 10px 0 14px;
+    margin-bottom: 5px;
+}
+
+#newPartnerForm .frm-field .btn {
+    margin: 20px auto 0 auto;
+    display: block;
+    width: 100%;
+}
+
+#newPartnerForm .frm-field .btn[disabled] {
+    touch-action: none;
+    pointer-events: none;
+    opacity: 0.5;
+}
+
+.new-partner-success .action-title {
+    color: #198754;
+    margin-bottom: 10px;
+}
+
+.new-partner-success p {
+    margin-bottom: .5rem;
+}
+
+#newPartnerForm .input-error {
+    border: 1px solid #F3455A !important;
+}
+
+#newPartnerForm .text-error {
+    color: #F3455A;
+    font-size: 12px;
+    padding: 3px 10px 0 14px;
+}
