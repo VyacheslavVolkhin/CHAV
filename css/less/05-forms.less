@@ -1,6 +1,39 @@
 /* ----------------------------------- *\
 			forms elements styles
 \* ----------------------------------- */
+.frm-field-counter {
+	.btn-minus {
+		background: none;
+		border: 1px solid fade(#494949, 50);
+		&:before, &:after {
+			background-color: #451717;
+			width: 6px;
+			margin-left: -3px;;
+		}
+	}
+	.btn-plus {
+		background: none;
+		border: 1px solid fade(#F8B0B8, 50);
+		&:before {
+			display: none;
+		}
+		&:after {
+			content: "";
+			display: block;
+			position: absolute;
+			top: 0;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			width: auto;
+			height: auto;
+			margin: 0;
+			transform: none;
+			background: url(../img/icons/plus.png) center no-repeat;
+			background-size: 10px auto;
+		}
+	}
+}
 .frm-main-search {
 	display: block;
 	position: relative;
